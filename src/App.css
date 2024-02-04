@@ -47,3 +47,7 @@ a {
   --tertiary-color: rgb(243, 255, 75);
   --font-size: 16px;
 }
+
+body {
+  background-color: black;
+}
