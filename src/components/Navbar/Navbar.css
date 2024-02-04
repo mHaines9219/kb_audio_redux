@@ -1,4 +1,9 @@
 .navbar {
   height: 60px;
-  background-color: black;
+  background-color: var(--primary-purple);
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--tertiary-color);
 }
