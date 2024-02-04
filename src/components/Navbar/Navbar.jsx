@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar">
-        <div className="logo">LOGO</div>
+        <Link to="/">
+          <a className="logo">LOGO</a>
+        </Link>
         <div className="navbar-links-container">
           <Link to="/category/product_templates">
             <a className="navbar-links" href="#">
@@ -26,9 +28,11 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="navbar-right">
-          <a className="navbar-links" href="#">
-            LOGIN/SIGNUP
-          </a>
+          <Link to="/auth">
+            <a className="navbar-links" href="#">
+              LOGIN/SIGNUP
+            </a>
+          </Link>
           <ShoppingCartOutlinedIcon />
         </div>
       </div>
