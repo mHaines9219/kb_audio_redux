@@ -36,18 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-a {
-  text-decoration: none;
-}
-
-:root {
-  --primary-purple: rgb(142, 50, 185);
-  --secondary-color: rgb(230, 176, 255);
-  --tertiary-color: rgb(243, 255, 75);
-  --font-size: 1rem;
-}
-
-body {
-  background-color: rgb(255, 255, 231);
-}
