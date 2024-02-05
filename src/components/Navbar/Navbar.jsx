@@ -11,7 +11,7 @@ export default function Navbar() {
           <a className="logo">LOGO</a>
         </Link>
         <div className="navbar-links-container">
-          <Link to="/category/product_templates">
+          <Link to="/category/project_templates">
             <a className="navbar-links" href="#">
               PROJECT TEMPLATES
             </a>

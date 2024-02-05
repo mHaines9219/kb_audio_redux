@@ -4,8 +4,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import Register from './pages/Register';
-import Login from './pages/Login';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
+import Category from './pages/Category/Category';
 // import ProductsPage from './ProductsPage';
 // import ProductDetails from './ProductDetails';
 
@@ -23,8 +24,8 @@ function App() {
             </>
           }
         />
-        {/* <Route path="/products" element={<ProductsPage />} />
-        <Route path="/products/:productId" element={<ProductDetails />} /> */}
+        <Route path="/category/:categoryName" element={<Category />} />
+        {/*  <Route path="/products/:productId" element={<ProductDetails />} /> */}
         // Add more routes as needed
       </Routes>
     </>

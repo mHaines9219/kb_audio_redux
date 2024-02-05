@@ -42,12 +42,12 @@ a {
 }
 
 :root {
-  --primary-purple: rgb(127, 0, 185);
+  --primary-purple: rgb(142, 50, 185);
   --secondary-color: rgb(230, 176, 255);
   --tertiary-color: rgb(243, 255, 75);
-  --font-size: 16px;
+  --font-size: 1rem;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 231);
 }
